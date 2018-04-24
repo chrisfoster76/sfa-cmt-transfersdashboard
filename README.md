@@ -23,6 +23,7 @@ module.exports = config;
 #### Executing
 
 From root folder:
-'''
+```
+npm install
 npm start 
-'''
+```
