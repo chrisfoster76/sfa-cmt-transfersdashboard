@@ -1,11 +1,12 @@
+### SFA Commitments Transfers Dashboard
+
 Node.js Transfers Dashboard implementation for testing purposes
 
-##### Sample config.js
+#### Sample config.js
 
 Requires config.js to be added to project root. Sample format/contents:
 
 ```
-
 var config = {};
 
 ///port -> what port the application should listen on
@@ -17,6 +18,11 @@ config.api_hostname = "127.0.0.1";
 config.api_port = 44380;
 
 module.exports = config;
-
 ```
 
+#### Executing
+
+From root folder:
+'''
+npm start 
+'''
