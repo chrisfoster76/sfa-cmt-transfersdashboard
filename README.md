@@ -20,10 +20,15 @@ config.api_port = 44380;
 module.exports = config;
 ```
 
-#### Executing
+#### Usage
 
 From root folder:
 ```
 npm install
 npm start 
+```
+
+From browser, where accountId is Transfer Sender's Hashed Account Id:
+```
+http://localhost:3200/{accountId}
 ```
