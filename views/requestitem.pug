@@ -27,4 +27,5 @@ html
                     td
                         if item.TransferType == "AsSender"
                             a(href="https://localhost:44348/commitments/accounts/" + item.HashedSendingEmployerAccountId + "/sender/transfers/" + item.HashedTransferRequestId) View
-                
+                        else if item.TransferType == "AsReceiver"
+                            a(href="https://localhost:44348/commitments/accounts/" + item.HashedReceivingEmployerAccountId + "/receiver/transfers/" + item.HashedTransferRequestId) View

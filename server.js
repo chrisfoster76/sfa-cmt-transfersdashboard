@@ -32,7 +32,6 @@ app.get("/:senderId", (req, res) => {
   var options = {
     hostname: config.api_hostname,
     port: config.api_port,
-    //path: "/api/employer/"+ transferSenderAccountId + "/transfers",
     path: String.Format("/api/employer/{0}/transfers", transferSenderAccountId),
     method: "GET",
     rejectUnauthorized: false,
